@@ -1,0 +1,10 @@
+Flask
+mysql-connector-python
+ultralytics
+werkzeug
+python-dotenv
+opencv-python
+
+#sampah yang tidak cocok untuk pirolisis
+#total sampah plastik, botol, dan sebagainya yang dideteksi
+# sampah yang dimasukkan ke tempat sampah berdasarkan total sampah (botol, plastik, etc)

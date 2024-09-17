@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['alumunium', 'battery', 'cardboard', 'food_waste', 'glass', 'paper', 'plastic', 'styrofoam', 'tea-bags']
+
+roboflow:
+  workspace: samsungsolvefortomorrow
+  project: samsung-solve-for-tomorrow-3
+  version: 12
+  license: Public Domain
+  url: https://universe.roboflow.com/samsungsolvefortomorrow/samsung-solve-for-tomorrow-3/dataset/12

@@ -1,0 +1,52 @@
+GET http://localhost:5000/users
+
+
+###
+GET http://localhost:5000/users/average
+
+###
+GET http://localhost:5000/users/color
+
+###
+http://express-app:5000
+
+
+###
+GET http://localhost:5000/users/3
+
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Padang",
+    "longitude": "100.459526",
+    "latitude": "-0.914518",
+    "image": "andalas.jpg",
+    "color": "red"
+}
+
+
+###
+PATCH http://localhost:5000/users/43
+Content-Type: application/json
+
+{
+    "name": "Padang Barat",
+    "longitude": "100.459526",
+    "latitude": "-0.914518",
+    "image": "andalas.jpg"
+}
+
+###
+DELETE http://localhost:5000/users/43
+Content-Type: application/json
+
+{
+    "name": "Padang Barat",
+    "longitude": "100.3559760",
+    "latitude": "-0.9313650",
+    "image": "data1.jpg"
+}
